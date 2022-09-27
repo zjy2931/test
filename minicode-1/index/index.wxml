@@ -5,7 +5,6 @@
       <textarea bindinput="changeValue" bindfocus="changeLength" data-id="0" value="{{content[0]}}" auto-height />
     </view>
   </view>
-
   <view class="page-section">
     <view class="page-section-title">这是一个可以自动聚焦的textarea</view>
     <view class="textarea-wrp">
@@ -15,7 +14,7 @@
   <view class="page-section">
     <view class="page-section-title">这是一个可以自动聚焦的textarea</view>
     <view class="textarea-wrp">
-      <textarea bindinput="changeValue" data-id="2" bindfocus="changeLength" value="{{content[2]}}" maxlength="{{maxlength[2]}}" style="height: 3em" />
+      <textarea bindinput="changeValue" data-id="2" bindfocus="changeLength" value="{{content[2]}}" style="height: 3em" />
     </view>
   </view>
 </view>
