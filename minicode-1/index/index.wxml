@@ -1,0 +1,21 @@
+<view class="page-body">
+  <view class="page-section">
+    <view class="page-section-title">输入区域高度自适应，不会出现滚动条</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="changeValue" bindfocus="changeLength" data-id="0" value="{{content[0]}}" auto-height />
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">这是一个可以自动聚焦的textarea</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="changeValue" data-id="1" value="{{content[1]}}" style="height: 3em" />
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">这是一个可以自动聚焦的textarea</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="changeValue" data-id="2" bindfocus="changeLength" value="{{content[2]}}" maxlength="{{maxlength[2]}}" style="height: 3em" />
+    </view>
+  </view>
+</view>
